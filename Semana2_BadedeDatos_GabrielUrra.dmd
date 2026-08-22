@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Semana2_BadedeDatos_GabrielUrra" id="26776D02-427F-C57B-E3F4-04EB1869960F" version="3.5">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:27:25 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>26776D02-427F-C57B-E3F4-04EB1869960F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8EFA8A90-2198-EB96-117B-F5B03B9BDEDA">
+<designStoragePath>C:\MER_BTAirways_Oracle</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
