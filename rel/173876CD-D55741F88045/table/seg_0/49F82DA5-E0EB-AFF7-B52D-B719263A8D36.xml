@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="49F82DA5-E0EB-AFF7-B52D-B719263A8D36" name="PILOTO">
+<sourceDDLFile>MER_BTAirways.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>BE441954-7D8E-7938-5D5F-21C0E1B8E673</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="D2DDE92D-0D29-913F-39EE-2272EC2729BA">
+<sourceDDLFile>MER_BTAirways.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>91A2C143-38A0-CD30-306F-BEB41D9C9BB4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77FEDA8C-63CA-8C76-7E9D-85DF1E47E1B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09C322A5-9628-51BA-8DDA-9FD72A73FAC6" referredColumn="2FD29371-5698-4CF8-06E2-8927CFBF15FC"/>
+</associations>
+</Column>
+<Column name="horas_vuelo_acumuladas" id="7DD55924-0FC4-6C95-AD2A-0D5427BF8DD5">
+<sourceDDLFile>MER_BTAirways.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>034F25CC-D970-40A0-CC5D-AAEDC69F8053</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>6B6C62CC-9A3F-8260-D4A1-1F2C9573CD2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="afp" id="DB0B0C67-E8C7-11CA-E9FE-A0CC65D9A158">
+<sourceDDLFile>MER_BTAirways.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>8672BBAE-D402-C271-AC21-FDC6B74EBD6B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4BDB9E9-3AA3-A181-E3B2-CBF51C674290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C0B158A-994F-7A19-A561-299DD2FA9F0E" name="pk_piloto">
+<sourceDDLFile>MER_BTAirways.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>3B9402E6-3BB2-DE96-A5FF-F40315B4B64B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2DDE92D-0D29-913F-39EE-2272EC2729BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B402F6A7-29AE-1042-2742-BDC1AC2A3A6E" name="fk_piloto_empleado">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2DDE92D-0D29-913F-39EE-2272EC2729BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

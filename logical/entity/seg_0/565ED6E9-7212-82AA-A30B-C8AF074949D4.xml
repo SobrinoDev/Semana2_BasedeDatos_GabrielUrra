@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="565ED6E9-7212-82AA-A30B-C8AF074949D4" name="ADMINISTRATIVO">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>31F977C7-82EE-21C6-A883-0C62D880B695</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="571ADE06-208E-B2DD-8683-FA62A525FE73">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>9A0F3CA5-BA43-2D18-47AF-D99EB6703D69</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<referedAttribute>8A990328-412F-BA39-8550-C7A4102AF94E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77FEDA8C-63CA-8C76-7E9D-85DF1E47E1B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas extras" id="1F5E422D-87CF-39CD-11A2-1A77F56CDE3A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>34A394D5-8173-563F-9563-B95EC50B369E</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>BFC85514-965B-F5A2-03DE-BA153B5ED55D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="6290E4C8-A4C8-E475-7FF7-257CC8BD5056">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>16FD22AD-9712-0592-366F-04F5C9600463</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4BDB9E9-3AA3-A181-E3B2-CBF51C674290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A50AE413-D2E6-F54F-2C8E-4F58F499EB32" name="pk administrativo">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>D48DB495-7B4D-ED17-548F-4559A2A7EF79</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>571ADE06-208E-B2DD-8683-FA62A525FE73</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

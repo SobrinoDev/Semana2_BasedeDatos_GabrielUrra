@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EQUIPAJE" directorySegmentName="seg_0" id="8D182A8D-3909-CC14-E2DB-3D3C46237AE7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="fragil" id="1F95FA13-F1EA-C136-07DF-AC50629AAC03">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="descripcion" id="29728E77-D16A-822D-BAC1-442E13E497B8">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="color" id="4D110D7F-E8FB-FFC9-1F75-1E10000CD00F">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tipo_embarque" id="4F305206-9850-587B-7AA9-7A00D1AB5AD4">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="codigo" id="82859AFD-9CA4-F270-AC3C-4C6A158D212C">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pasaporte_cedula" id="A6B72D32-0805-BD06-E2D8-71B4F50CA1B7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="peso" id="E1A37A9B-8EC4-89A4-34A2-EFB25D6BF6B7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_equipaje_pasajero" id="EED7031C-A628-1DED-1BB0-8095E28CA4AD">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_equipaje" id="2D267342-24A9-5743-7399-4FAB0A1FC8F9">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="ck_equipaje_fragil" id="607259FC-855B-5AA5-0534-98CCFFEE1BBA">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+<TableCheckConstraint name="ck_equipaje_embarque" id="F2591DF6-5BA7-48F2-AC93-1058333B5D1A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<nameChanged>true</nameChanged>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>

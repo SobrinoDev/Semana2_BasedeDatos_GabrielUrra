@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E1D0DD6-001C-8D5E-3400-C29E04FAE268" containerWithKeyObject="29410295-DC7F-8ABC-2D96-791F5FEE21BB" localFKIndex="2427FBC6-38D2-27DD-19B4-4A46743B6EAF" name="fk_reserva_pasajero">
+<sourceDDLFile>MER_BTAirways.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>F36906D7-D7B9-850A-BF8A-AF9C94DF04EF</importedID>
+<referredTableLongName>PASAJERO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C58E9D3A-1287-3A75-5D9F-BB63D54A1B8F</referredTableID>
+<keyObject>78223987-22F7-A81F-78FB-A5B90AEE76AB</keyObject>
+<referredKeyID>78223987-22F7-A81F-78FB-A5B90AEE76AB</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>pasaporte_cedula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

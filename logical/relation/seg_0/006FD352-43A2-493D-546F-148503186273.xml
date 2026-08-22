@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_equipaje_pasajero" directorySegmentName="seg_0" id="006FD352-43A2-493D-546F-148503186273">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>371EC441-DD38-4B16-13D7-9F32CCCAAFEB</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<sourcePk>6A761819-984B-E232-0352-30B928B16D14</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8CB0A38B-C24D-BE1B-9D73-F2BB92AC53D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AD367819-9D94-D93A-733A-5457281B70E1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

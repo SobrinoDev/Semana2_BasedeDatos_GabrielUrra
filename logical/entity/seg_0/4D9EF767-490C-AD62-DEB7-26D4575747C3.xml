@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4D9EF767-490C-AD62-DEB7-26D4575747C3" name="PILOTO">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>49F82DA5-E0EB-AFF7-B52D-B719263A8D36</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="F742629B-56BD-B73E-80C6-133AEE486FAE">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>AA2CD48A-334A-B954-87EA-BFF8F2420C1B</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<referedAttribute>8A990328-412F-BA39-8550-C7A4102AF94E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>77FEDA8C-63CA-8C76-7E9D-85DF1E47E1B0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas vuelo acumuladas" id="A4CA8C96-83B8-073A-F335-F8FAEFE913AC">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>7DD55924-0FC4-6C95-AD2A-0D5427BF8DD5</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>6B6C62CC-9A3F-8260-D4A1-1F2C9573CD2C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="afp" id="9104ECDB-8C85-EBF9-A0FC-408F7E309151">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>DB0B0C67-E8C7-11CA-E9FE-A0CC65D9A158</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D4BDB9E9-3AA3-A181-E3B2-CBF51C674290</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6232B0FF-EF65-903A-6BDA-D6E764114431" name="pk piloto">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:02:15 UTC</createdTime>
+<generatorID>0C0B158A-994F-7A19-A561-299DD2FA9F0E</generatorID>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="173876CD-BE52-C232-27CC-D55741F88045" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F742629B-56BD-B73E-80C6-133AEE486FAE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

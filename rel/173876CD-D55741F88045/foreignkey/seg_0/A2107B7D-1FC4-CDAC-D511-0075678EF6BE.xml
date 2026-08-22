@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2107B7D-1FC4-CDAC-D511-0075678EF6BE" containerWithKeyObject="70BF464F-26E0-2811-B303-0C7C1B1EFC5B" localFKIndex="F2DA655D-0640-72D1-F40A-3BFDADEADAF1" name="fk_reserva_equipaje_equipaje">
+<sourceDDLFile>MER_BTAirways.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 21:58:29 UTC</createdTime>
+<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<importedID>9A1A1DF3-9E50-F103-9A55-7241518E9808</importedID>
+<referredTableLongName>EQUIPAJE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8D182A8D-3909-CC14-E2DB-3D3C46237AE7</referredTableID>
+<keyObject>2D267342-24A9-5743-7399-4FAB0A1FC8F9</keyObject>
+<referredKeyID>2D267342-24A9-5743-7399-4FAB0A1FC8F9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
