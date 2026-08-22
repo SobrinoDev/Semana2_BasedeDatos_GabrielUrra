@@ -1,4 +1,4 @@
-# Semana 2 - Base de Datos: Modelamiento BT&Airways
+# Semana 2 - Base de Datos
 
 Actividad formativa "Representando procesos de Modelamiento Entidad-Relación (MER)", desarrollada en pareja con **Oracle SQL Developer Data Modeler**, dando continuidad al levantamiento inicial de la Semana 1.
 
@@ -107,19 +107,7 @@ Se identificaron 9 entidades: **AVION**, **EMPLEADO**, **PASAJERO**, **VUELO** y
 
 La mayoría de las relaciones son **no identificadoras**, ya que RESERVA, VUELO y EQUIPAJE cuentan con su propia clave primaria natural y no dependen de las entidades relacionadas para su identidad. Son excepción la especialización EMPLEADO–PILOTO/ADMINISTRATIVO y la asociativa RESERVA_EQUIPAJE, que sí son **identificadoras**: PILOTO y ADMINISTRATIVO heredan el RUT de EMPLEADO como su propia PK, y RESERVA_EQUIPAJE construye su PK combinando las claves migradas de RESERVA y EQUIPAJE.
 
-## Modelos entregados
-
-1. **Modelo Entidad-Relación (MER) en notación Barker**: representa las 9 entidades, sus atributos (marcados como clave `#`, obligatorio `*` u opcional `o`) y las relaciones con su cardinalidad/opcionalidad, incluyendo la especialización de EMPLEADO.
-2. **Modelo Relacional en notación Bachman / Information Engineering**: generado mediante *Engineer to Relational Model* a partir del modelo lógico, mostrando las tablas resultantes con tipos de dato nativos de Oracle y las llaves primarias/foráneas.
-
 ## Herramienta utilizada
 
 [Oracle SQL Developer Data Modeler](https://www.oracle.com/database/sqldeveloper/technologies/sql-data-modeler/download/) (sitio de base de datos: Oracle Database 12c)
 
-## Archivos del repositorio
-
-- `Semana2_BasedeDatos_GabrielUrra/` — proyecto completo de Data Modeler (modelo lógico y relacional).
-- `Semana2_BasedeDatos_GabrielUrra/MER_BTAirways.sql` — DDL del modelo en SQL genérico/ANSI.
-- `Semana2_BasedeDatos_GabrielUrra/MER_BTAirways_Oracle.sql` — DDL adaptado a sintaxis Oracle, usado para el import en Data Modeler.
-- `Semana2_BadedeDatos_GabrielUrra.dmd` — archivo de apertura rápida del proyecto.
-- `Semana2_BadedeDatos_GabrielUrra.zip` — copia comprimida del proyecto.
