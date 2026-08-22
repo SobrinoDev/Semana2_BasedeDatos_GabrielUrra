@@ -11,7 +11,7 @@ Continuación del caso de negocio de la aerolínea **BT&Airways** trabajado en l
 |---|---|
 | [`MER_BTAirways.sql`](MER_BTAirways.sql) | DDL del modelo en SQL genérico/ANSI: `CREATE TABLE` de las 9 entidades con PK, FK y `CHECK` de dominio. |
 | [`MER_BTAirways_Oracle.sql`](MER_BTAirways_Oracle.sql) | Misma estructura, adaptada a sintaxis Oracle (`VARCHAR2`, `NUMBER`, sin tipo `TIME`) para importar en **Oracle SQL Developer Data Modeler** (sitio de base de datos: Oracle Database 12c). |
-| resto de carpetas (`businessinfo/`, `datatypes/`, `logical/`, `rdbms/`, `rel/`, etc.) | Proyecto de **Oracle SQL Developer Data Modeler** (formato CREST) donde se construye el diagrama MER (modelo lógico) a partir del DDL importado. |
+| resto de carpetas (`businessinfo/`, `datatypes/`, `logical/`, `rdbms/`, `rel/`, `domains/`, etc.) | Proyecto de **Oracle SQL Developer Data Modeler** (formato CREST) con el modelo relacional importado y el diagrama MER (modelo lógico) ya generado. |
 
 ## Resumen del modelo
 
