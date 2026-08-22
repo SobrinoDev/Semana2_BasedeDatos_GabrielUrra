@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A53A19B3-873B-25CB-E5B8-EC6F8D2264E6" name="VUELO">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>4B175A84-6412-82CD-EB3B-B4B5E34CE239</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero vuelo" id="59F1B70E-AC95-DDE9-12C1-91F56AA95F05">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>D8F6539F-8795-0BFD-0F79-B6829C834064</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>59B0B4F8-BEA0-60FE-6C8E-FE13CEDF8553</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha despegue" id="E6FA66AB-91C1-C7AA-18C8-3F53EFCF8D51">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>BFBB123B-BF28-DF24-9AA3-B0693AC57F47</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EA02B077-EBCE-DE46-1EFA-FE1F49FF8CFF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha llegada" id="2DF5FB11-7559-E8CB-9311-4FE62704AC7E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>972DA822-1128-2D89-4890-A74DAE864C99</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EA02B077-EBCE-DE46-1EFA-FE1F49FF8CFF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora salida" id="04E42043-96FC-C9A3-B9A6-3428DBD86C10">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>28C78961-34A0-7563-B783-FDF2DCDA3984</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E9F88EF-1A59-07A4-7199-5F7C32A6BB4A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad origen" id="BD2C479D-B3F2-17DE-835C-32C474D4BAC0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>F26A124E-6BF7-D1A3-F471-FAB7F2ABD87C</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>02DB7FC6-9428-794C-D670-DF0401134208</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad destino" id="EB12FA01-D87E-0AE3-0373-5C59B1A3D6B7">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>F557856F-C9FD-838A-6381-02073D9D5F0F</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>02DB7FC6-9428-794C-D670-DF0401134208</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula avion" id="F8B610DD-31BA-3B40-5926-78A5B22F9BA4">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>847544C9-D592-AF5E-A7FA-02834BB19D42</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<referedAttribute>4098C977-983B-492A-3D54-81951A3AEECD</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>90780F2F-6674-85AF-1D8E-2BBC2E80BCA6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF05727E-126B-7704-4CCB-A10E8D6E7EB4" name="pk vuelo">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>C673ED42-CBE9-16BF-AEED-19DBA464C7BC</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>59F1B70E-AC95-DDE9-12C1-91F56AA95F05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

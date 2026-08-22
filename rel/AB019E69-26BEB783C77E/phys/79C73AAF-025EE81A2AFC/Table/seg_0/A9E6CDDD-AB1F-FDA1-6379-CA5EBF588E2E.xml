@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PILOTO" directorySegmentName="seg_0" id="A9E6CDDD-AB1F-FDA1-6379-CA5EBF588E2E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="afp" id="A35A6ABD-C1D1-4394-E8AA-8653F42D6178">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPLEADO_rut" id="AC973AE3-2151-ED5A-E06D-41559C5A212E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="horas_vuelo_acumuladas" id="C8ED5A4F-849E-5770-A3E7-E82EC9447B29">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PILOTO_EMPLEADO_FK" id="D893AA0A-E8F6-AE08-0484-DB1BD143FF3A">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PILOTO_PK" id="265366F9-AF54-8141-D872-75F6778E0F86">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

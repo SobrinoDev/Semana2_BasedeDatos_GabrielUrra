@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD03331F-62C6-144F-FC00-8D5F33299B0D" name="RESERVA EQUIPAJE">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:55:35 UTC</createdTime>
+<generatorID>910D4445-E833-71BD-A5FE-1F37BF001E0C</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="B926306B-0368-16C3-B18E-338E8B32CFB6">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:55:35 UTC</createdTime>
+<generatorID>F3688541-23D7-AEFE-5A96-0A55D8636C68</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<referedAttribute>9C7B2270-E048-9EDA-20B4-DE39AA32ECC0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>314719A6-54D3-0567-A7D9-68808EA17C29</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero reserva" id="45658AC0-594D-AC7A-B202-20D0A31D3721">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:55:35 UTC</createdTime>
+<generatorID>CF289678-6FC7-F635-E3CA-FA163ACBAE37</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<referedAttribute>8FF2A921-0517-996D-1998-572B5B0BCB8F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>90780F2F-6674-85AF-1D8E-2BBC2E80BCA6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAF8D427-6E65-8298-E22F-79A0E40C48C4" name="pk reserva equipaje">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:55:35 UTC</createdTime>
+<generatorID>E6DA19DA-75D3-60B1-51A1-E53DCECDE8C0</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B926306B-0368-16C3-B18E-338E8B32CFB6</attributeRef>
+<attributeRef>45658AC0-594D-AC7A-B202-20D0A31D3721</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

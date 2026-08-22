@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="752106C7-0E21-ECAF-9B60-BBF430DA9B53" name="RESERVA">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>466CD62D-69CC-2469-BF0D-32A28040ED89</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_reserva" id="208A3B2A-B3B2-9B57-B63A-464BBF73701D">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D75D8F8B-F4CC-D33F-4EC1-8FE3F6DA35CF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>90780F2F-6674-85AF-1D8E-2BBC2E80BCA6</domain>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_reserva" id="00E25789-F48E-11CC-00A1-671EF530E6C7">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>EC6BF417-8BD6-EA71-29D4-F67041E8E412</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EA02B077-EBCE-DE46-1EFA-FE1F49FF8CFF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_viaje" id="8E218078-14AC-5912-D328-2759D9FD0D10">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>D1F5E0B6-3E7E-9076-7A60-56587378B969</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EA02B077-EBCE-DE46-1EFA-FE1F49FF8CFF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asiento" id="B2FFE2D9-2A38-5811-7583-6A0732C3A06E">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>07419DBB-56D5-4580-0209-B97C51723FF5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E9F88EF-1A59-07A4-7199-5F7C32A6BB4A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="379BA620-B5C4-E8EF-9E79-1284ED491715">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>B409DEA2-8727-1A43-B067-3537898B75E0</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7909D9C8-34FE-7B01-A5D4-D7C7DC97F14F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PASAJERO_pasaporte_cedula" id="54F30ADF-DACF-00E7-A61D-71DACD25303F">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>526D138D-2DE3-443A-C858-08781A057B06</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A70B3F3A-CBDD-2990-FB2B-B0ED281ED907</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC532846-82FF-744A-CFD5-8EBFC9694A44" referredColumn="EFB6DA23-8114-D3CD-BC8D-6740C95209B3"/>
+</associations>
+</Column>
+<Column name="VUELO_numero_vuelo" id="C7E26FE0-CA84-CA11-8A2A-58820C760901">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>FE4AEB01-4489-E7BB-B90F-1E6E24551AC9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>59B0B4F8-BEA0-60FE-6C8E-FE13CEDF8553</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96C1CFBF-0777-2980-CA6A-DC2030A9D77C" referredColumn="D8F6539F-8795-0BFD-0F79-B6829C834064"/>
+</associations>
+</Column>
+<Column name="ADMINISTRATIVO_rut" id="FF9716E0-7185-6A46-6EAD-D931598066E3">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>28A15ED5-2871-CC45-B554-C9363B740233</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7909D9C8-34FE-7B01-A5D4-D7C7DC97F14F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="665512DE-3C01-D247-77E1-B7AFF2E40F44" referredColumn="2360F395-CDD7-9376-5AC6-32414F2BF7E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E2C4531-FA64-6EE4-1F77-A51882612868" name="RESERVA_PK">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<importedID>086AA561-C408-AC05-8439-9E12C275AD03</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208A3B2A-B3B2-9B57-B63A-464BBF73701D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4040EA8-4E3F-29D3-5C41-B4398258733C" name="RESERVA_ADMINISTRATIVO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF9716E0-7185-6A46-6EAD-D931598066E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="925AFC2A-C79F-65CC-804A-E3B49412DA2B" name="RESERVA_PASAJERO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54F30ADF-DACF-00E7-A61D-71DACD25303F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E86A3B60-204A-F160-61C9-8A26F5B4A296" name="RESERVA_VUELO_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7E26FE0-CA84-CA11-8A2A-58820C760901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ck_reserva_estado" directorySegmentName="seg_0" id="737C9D2B-AA90-D97D-792B-B76399B8940E">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<importedID>094814FA-FDD9-0E46-8AAF-FAC17F85E5E8</importedID>
+<rule><![CDATA[estado IN ('Confirmada','Nula')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

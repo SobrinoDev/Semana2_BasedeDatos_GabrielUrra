@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="8A3336F7-7157-5B3B-5028-BE293D7D61C3" mainViewID="90B626EC-F4B5-BC50-8CCA-580399D4DCBD">
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="1967E24D-B2B1-9CD2-00BD-1253CEF9BB88" mainViewID="3855E8BB-8B75-4F76-9926-0698D59610DD">
 <createdBy>Usuario</createdBy>
-<createdTime>2026-08-22 21:39:22 UTC</createdTime>
-<ownerDesignName>Semana2_BasedeDatos_GabrielUrra</ownerDesignName>
+<createdTime>2026-08-22 22:27:26 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 <collectionOfRefsPrefix>array_ref_</collectionOfRefsPrefix>
 <collectionPrefix>array_</collectionPrefix>

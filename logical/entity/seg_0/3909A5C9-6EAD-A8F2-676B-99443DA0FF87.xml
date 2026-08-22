@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3909A5C9-6EAD-A8F2-676B-99443DA0FF87" name="PASAJERO">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>68FE4B7E-07E3-977E-2A23-3D0330ED828F</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pasaporte cedula" id="F7558999-8351-B417-7A50-6A85505C0211">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>EFB6DA23-8114-D3CD-BC8D-6740C95209B3</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A70B3F3A-CBDD-2990-FB2B-B0ED281ED907</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre completo" id="89CA23EB-CAE6-16AD-A297-DE33B438A54E">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>F989A27A-6B29-92CD-D5C9-EFE8CCEA86BE</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A9F4EE4E-2556-0D5C-7F9B-131B0E24A089</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha nacimiento" id="453A7575-BAF4-656D-0FEE-B40FCC294EDD">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>21CDA6B0-0587-A6F5-ACD6-776CD41D1B66</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>EA02B077-EBCE-DE46-1EFA-FE1F49FF8CFF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nacionalidad" id="95779FB0-3E99-FD42-1611-156EAD20A0E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>1F09F8E9-A839-0311-62CC-95274AA3A9F2</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>02DB7FC6-9428-794C-D670-DF0401134208</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono contacto" id="086CF6EB-CBFF-7687-A952-3F5D6CD6A58D">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>F2F9D558-80DF-0009-A69D-351A92E0B998</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A70B3F3A-CBDD-2990-FB2B-B0ED281ED907</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo electronico" id="89C2DC28-6D12-6E0F-4E23-71F1A957DEA2">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>C60750E9-AED4-9AC0-E178-51ED1218F2AC</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A9F4EE4E-2556-0D5C-7F9B-131B0E24A089</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5A59DDA-D3D3-1CAA-C439-B3F5ED571B8E" name="pk pasajero">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>4EB5C6A4-B285-0F75-D8D6-FA15CDD768B3</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7558999-8351-B417-7A50-6A85505C0211</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

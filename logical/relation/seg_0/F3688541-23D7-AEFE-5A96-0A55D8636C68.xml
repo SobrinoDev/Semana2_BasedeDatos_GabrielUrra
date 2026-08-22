@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_reserva_equipaje_equipaje" directorySegmentName="seg_0" id="F3688541-23D7-AEFE-5A96-0A55D8636C68">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:55:35 UTC</createdTime>
+<generatorID>659302D6-BE61-8AD0-0C58-FBA024B9C92E</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<sourcePk>0BF9AF97-2831-7FE5-27EB-6D9CDC66F339</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>93FAF289-1A43-E668-9BD8-3F5692206CAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD03331F-62C6-144F-FC00-8D5F33299B0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

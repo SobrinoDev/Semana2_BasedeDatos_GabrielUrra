@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_reserva_empleado" directorySegmentName="seg_0" id="13F45EF9-2EF0-A83B-56F0-A492935E25F9">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>665512DE-3C01-D247-77E1-B7AFF2E40F44</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<sourcePk>32ED516A-0BAB-2264-1A81-206B0A398917</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2A445CCC-3B93-CBEA-54CE-D45E977CDE13</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B6909AB-BA94-F602-A9BA-DEDDE758ADCB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

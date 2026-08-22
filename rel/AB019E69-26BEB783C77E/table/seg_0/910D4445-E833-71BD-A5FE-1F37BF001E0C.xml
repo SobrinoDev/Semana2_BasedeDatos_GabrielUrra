@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="910D4445-E833-71BD-A5FE-1F37BF001E0C" name="RESERVA_EQUIPAJE">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<importedID>45633A1E-FD09-1A10-2E9B-73D5EE7AA3B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numero_reserva" id="B4921CCC-EA83-8422-BE79-3A0BDB90A047">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<importedID>ECA62130-1A2C-49DB-8D8C-16E6168B4329</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<domain>90780F2F-6674-85AF-1D8E-2BBC2E80BCA6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1F52238-F6DA-FA26-13FA-2DF247C06BA4" referredColumn="208A3B2A-B3B2-9B57-B63A-464BBF73701D"/>
+</associations>
+</Column>
+<Column name="codigo_equipaje" id="E5EC21A2-D279-4876-7D02-5BF315643588">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<importedID>5598B2C5-4EB0-128C-F3E8-A85017A89F0F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>314719A6-54D3-0567-A7D9-68808EA17C29</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="659302D6-BE61-8AD0-0C58-FBA024B9C92E" referredColumn="EC8D0A65-3BCC-2517-D041-321BAA0F6DDB"/>
+</associations>
+</Column>
+<Column name="codigo" id="F245B751-DE58-5F19-BFA5-8385C1812358">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:59:08 UTC</createdTime>
+<generatorID>B926306B-0368-16C3-B18E-338E8B32CFB6</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>314719A6-54D3-0567-A7D9-68808EA17C29</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_reserva1" id="A8C662E9-ED89-217B-3BB6-11B763EAC5C0">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:59:08 UTC</createdTime>
+<generatorID>45658AC0-594D-AC7A-B202-20D0A31D3721</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>90780F2F-6674-85AF-1D8E-2BBC2E80BCA6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6DA19DA-75D3-60B1-51A1-E53DCECDE8C0" name="RESERVA_EQUIPAJE_PK">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<importedID>760EAB82-4C05-56C0-8959-05957D0298AA</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F245B751-DE58-5F19-BFA5-8385C1812358"/>
+<colUsage columnID="A8C662E9-ED89-217B-3BB6-11B763EAC5C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08D3D6F7-FBD3-3329-4670-5CCE54AF7CE3" name="RESERVA_EQUIPAJE_EQUIPAJE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5EC21A2-D279-4876-7D02-5BF315643588"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDB759D5-7694-E2CB-352C-90C857AF95E2" name="RESERVA_EQUIPAJE_RESERVA_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4921CCC-EA83-8422-BE79-3A0BDB90A047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

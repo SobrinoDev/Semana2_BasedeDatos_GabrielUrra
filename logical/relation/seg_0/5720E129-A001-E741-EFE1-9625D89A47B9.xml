@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_reserva_vuelo" directorySegmentName="seg_0" id="5720E129-A001-E741-EFE1-9625D89A47B9">
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:28 UTC</createdTime>
+<generatorID>96C1CFBF-0777-2980-CA6A-DC2030A9D77C</generatorID>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<engineerTo>
+<item key="AB019E69-3BC6-3777-4D56-26BEB783C77E" value="true"/>
+</engineerTo>
+<sourcePk>EF05727E-126B-7704-4CCB-A10E8D6E7EB4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A53A19B3-873B-25CB-E5B8-EC6F8D2264E6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8B6909AB-BA94-F602-A9BA-DEDDE758ADCB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

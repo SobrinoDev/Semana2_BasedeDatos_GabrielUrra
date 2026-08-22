@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BDBD1E8C-9A89-F45A-0F61-EED3398520EA" containerWithKeyObject="A9E6CDDD-AB1F-FDA1-6379-CA5EBF588E2E" localFKIndex="D893AA0A-E8F6-AE08-0484-DB1BD143FF3A" name="PILOTO_EMPLEADO_FK">
+<sourceDDLFile>MER_BTAirways_Oracle.sql</sourceDDLFile>
+<createdBy>Usuario</createdBy>
+<createdTime>2026-08-22 22:28:20 UTC</createdTime>
+<ownerDesignName>Semana2_BadedeDatos_GabrielUrra</ownerDesignName>
+<importedID>A783308F-20AD-59F0-6C41-18BCA6101CA4</importedID>
+<referredTableLongName>EMPLEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9BF57E73-0FA3-81BE-F7B6-E9A375CFB579</referredTableID>
+<keyObject>2855C33B-960B-84B3-38CA-666F4461FDA8</keyObject>
+<referredKeyID>2855C33B-960B-84B3-38CA-666F4461FDA8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
